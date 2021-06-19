@@ -1,0 +1,25 @@
+#about{
+    background-image: url('../img/gallery/band.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #aboutBox{
+        width: 80%;
+        text-align: center;
+        display:block;
+        background-color:rgba(0, 0, 0, 0.6);
+        padding: 5rem;
+        h2{
+            font-size: 36px;
+            color: #dfc01b;
+            font-weight: lighter;
+            margin-bottom: 50px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+}

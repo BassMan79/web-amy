@@ -1,0 +1,72 @@
+#contacto{
+    margin:50px 0px 0px 0px;
+    padding:0px;
+    background-image: url('../img/gallery/contactBack.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    padding-bottom:20px;
+    #formHead{
+        text-align: center;
+        width: 5rem;
+        margin-top: 100px;
+        .lineaSeparador{
+            margin:0px auto;
+        }
+        #socialBox{
+            font-size: 40px;
+            padding: 30px 0px;
+            a{
+                padding:10px
+            }
+            a:hover{
+                color:#dfc01b;
+            }
+        }
+    }
+}
+
+#contactDetails{
+    ul{
+        list-style: none;
+        font-size: 16px;
+        li{
+            margin-top: 15px;
+            i{
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+#formContact{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding:50px 0px 30px 0px;
+    background-color:rgba(0, 0, 0, 0.6);;
+    #formulario{
+        max-width: 40%;
+        input[type="text"],input[type="email"], textarea{
+            border-bottom: 2px solid #fff;
+            padding: 8px 0;
+            margin: 0;
+            width: 49.5%;
+            margin: 5px 0px;
+            background-color: rgba(255,255,255,0);
+            color:rgba(255,255,255,1);
+            border:none;
+            border-bottom: 2px solid #fff;
+        }
+        input:focus,textarea:focus{
+            border-bottom: 2px solid #dfc01b;
+        }
+        input[name="subject"]{
+            width: 100%;
+        }
+        textarea{
+            width: 100%;
+            resize: none;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+#home{
+    background-size: cover;
+    background-image: url('../img/amy-back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+header{
+    color:black;
+    padding: 2rem 10rem 0rem 10rem;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    #logoBox{
+        display: flex;
+        justify-content: flex-end;
+        img{
+            width: 300px;
+        }
+    }
+}
+#presentacion{
+    width: 40%;
+    margin: 9rem 0rem 0rem 10rem;
+    color: white;
+    h1{
+        font-size: 40px;
+        font-weight: lighter;
+    }
+    p{
+        font-size: 20px;
+        font-style: italic;
+    }
+}
+
+#barra{
+    background-color:rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom:0;
+    height: 9rem;
+    display: flex;
+    justify-content: flex-end;
+    h3{
+        color: #dfc01b;
+        font-size: 30px;
+    }
+    #frase{
+        font-size: 1.8rem;
+        text-align: right;
+        font-style: italic;
+        margin: 1.5rem 3rem 0rem 0rem;
+        padding-bottom:1rem;
+    }
+}

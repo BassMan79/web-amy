@@ -1,0 +1,14 @@
+navbar{
+    display:flex;
+    justify-content: flex-end;
+    #menu{
+        width: auto;
+        margin-right: 18rem;
+        .sections{
+            list-style: none;
+            float: left;
+            padding: 5px 1rem;
+            font-size: 18px;
+        }
+    }
+}

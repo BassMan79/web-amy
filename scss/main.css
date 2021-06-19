@@ -1,0 +1,806 @@
+navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+navbar #menu {
+  width: auto;
+  margin-right: 18rem;
+}
+
+navbar #menu .sections {
+  list-style: none;
+  float: left;
+  padding: 5px 1rem;
+  font-size: 18px;
+}
+
+#home {
+  background-size: cover;
+  background-image: url("../img/amy-back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+header {
+  color: black;
+  padding: 2rem 10rem 0rem 10rem;
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header #logoBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header #logoBox img {
+  width: 300px;
+}
+
+#presentacion {
+  width: 40%;
+  margin: 9rem 0rem 0rem 10rem;
+  color: white;
+}
+
+#presentacion h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#presentacion p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+#barra {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  height: 9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#barra h3 {
+  color: #dfc01b;
+  font-size: 30px;
+}
+
+#barra #frase {
+  font-size: 1.8rem;
+  text-align: right;
+  font-style: italic;
+  margin: 1.5rem 3rem 0rem 0rem;
+  padding-bottom: 1rem;
+}
+
+#about {
+  background-image: url("../img/gallery/band.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about #aboutBox {
+  width: 80%;
+  text-align: center;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5rem;
+}
+
+#about #aboutBox h2 {
+  font-size: 36px;
+  color: #dfc01b;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+#about #aboutBox p {
+  font-size: 20px;
+}
+
+#integrantesBox {
+  margin: 50px 0px 0px 0px;
+  padding: 0px;
+  background-image: url("../img/mic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+}
+
+#integrantesBox #bandHead {
+  text-align: center;
+  width: 5rem;
+  margin-top: 100px;
+}
+
+#integrantesBox #bandHead .lineaSeparador {
+  margin: 0px auto;
+}
+
+#integrantesBox #bandHead p {
+  font-size: 20px;
+}
+
+#integrantesBox #integrantes {
+  margin: 0px auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#integrantesBox #integrantes .integrante {
+  color: white;
+  padding: 0px;
+  max-width: 20%;
+  width: 255px;
+  min-width: 255px;
+  margin: 25px;
+}
+
+#integrantesBox #integrantes .integrante img {
+  width: 100%;
+}
+
+#integrantesBox #integrantes .integrante .artistsInfo {
+  position: relative;
+  bottom: 100px;
+  left: 20px;
+  width: 80%;
+  margin: 0px;
+}
+
+#integrantesBox #integrantes .integrante h3 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#integrantesBox #integrantes .integrante p {
+  font-size: 20px;
+}
+
+@supports ((-o-object-fit: cover) or (object-fit: cover)) {
+  .integrante img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center center;
+       object-position: center center;
+  }
+}
+
+.sti-menu {
+  width: 1010px;
+  position: relative;
+  margin: 60px auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sti-menu li {
+  float: left;
+  width: 400px;
+  height: 300px;
+  margin: 25px;
+  list-style: none;
+}
+
+.sti-menu li a {
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.sti-menu li a h2 {
+  color: white;
+  font-size: 42px;
+  font-weight: lighter;
+  position: absolute;
+  width: 0px auto;
+  top: 200px;
+  left: 0px;
+  padding-left: 20px;
+}
+
+.sti-menu li a h3 {
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+  position: absolute;
+  top: 248px;
+  left: 0px;
+  padding-left: 20px;
+}
+
+#sofi {
+  background-image: url("../img/band/sofi.jpg");
+  background-size: cover;
+}
+
+#maxi {
+  background-image: url("../img/band/maxi.jpg");
+  background-size: cover;
+}
+
+#facu {
+  background-image: url("../img/band/facu.jpg");
+  background-size: cover;
+}
+
+#lucio {
+  background-image: url("../img/band/lucio.jpg");
+  background-size: cover;
+}
+
+#contacto {
+  margin: 50px 0px 0px 0px;
+  padding: 0px;
+  background-image: url("../img/gallery/contactBack.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+#contacto #formHead {
+  text-align: center;
+  width: 5rem;
+  margin-top: 100px;
+}
+
+#contacto #formHead .lineaSeparador {
+  margin: 0px auto;
+}
+
+#contacto #formHead #socialBox {
+  font-size: 40px;
+  padding: 30px 0px;
+}
+
+#contacto #formHead #socialBox a {
+  padding: 10px;
+}
+
+#contacto #formHead #socialBox a:hover {
+  color: #dfc01b;
+}
+
+#contactDetails ul {
+  list-style: none;
+  font-size: 16px;
+}
+
+#contactDetails ul li {
+  margin-top: 15px;
+}
+
+#contactDetails ul li i {
+  margin-right: 15px;
+}
+
+#formContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  padding: 50px 0px 30px 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#formContact #formulario {
+  max-width: 40%;
+}
+
+#formContact #formulario input[type="text"], #formContact #formulario input[type="email"], #formContact #formulario textarea {
+  border-bottom: 2px solid #fff;
+  padding: 8px 0;
+  margin: 0;
+  width: 49.5%;
+  margin: 5px 0px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+#formContact #formulario input:focus, #formContact #formulario textarea:focus {
+  border-bottom: 2px solid #dfc01b;
+}
+
+#formContact #formulario input[name="subject"] {
+  width: 100%;
+}
+
+#formContact #formulario textarea {
+  width: 100%;
+  resize: none;
+}
+
+footer {
+  height: auto;
+  text-align: center;
+}
+
+footer p {
+  padding: 20px 0px;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #home {
+    background-image: url("../img/amy-back.jpg");
+    background-position: center top;
+  }
+  #about {
+    background-image: url("../img/gallery/band768w.jpg");
+    background-size: cover;
+  }
+  navbar #menu {
+    margin-right: 0rem;
+  }
+  header #logoBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #presentacion {
+    width: 60%;
+    margin: 5rem 0rem 0rem 5rem;
+    color: white;
+  }
+  #barra #frase {
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+    margin: 1.5rem 3rem 0rem 0rem;
+    padding-bottom: 1rem;
+  }
+  #integrantes .integrante {
+    height: 300px;
+    margin: 10px !important;
+  }
+  #integrantes .integrante img {
+    width: 100%;
+  }
+  #integrantes .integrante .artistsInfo {
+    bottom: 120px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #home {
+    background-image: url("../img/amy-back.jpg");
+    background-position: center top;
+  }
+  #about {
+    background-image: url("../img/gallery/band768w.jpg");
+    background-position: center top;
+  }
+  navbar #menu {
+    margin-right: 0rem;
+  }
+  header #logoBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #presentacion {
+    width: 100%;
+    margin: 5rem auto;
+  }
+  #barra {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    height: 9rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #barra #frase {
+    font-size: 1.3rem;
+    text-align: right;
+    font-style: italic;
+    margin: 1.5rem 3rem 0rem 0rem;
+    padding-bottom: 1rem;
+  }
+  #about #aboutBox {
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5rem;
+  }
+  #about #aboutBox h2 {
+    font-size: 36px;
+    color: #dfc01b;
+    font-weight: lighter;
+    margin-bottom: 50px;
+  }
+  #about #aboutBox p {
+    font-size: 20px;
+  }
+  #integrantes .integrante {
+    max-width: 70% !important;
+    height: 350px;
+    margin: 10px !important;
+  }
+  #integrantes .integrante img {
+    width: 100%;
+  }
+  #integrantes .integrante .artistsInfo {
+    bottom: 120px !important;
+  }
+  #formContact {
+    display: inline-block;
+  }
+  #formContact #formulario {
+    max-width: 100%;
+    margin: 5rem 0rem;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 576px) {
+  navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  navbar #menu {
+    width: auto;
+  }
+  navbar #menu .sections {
+    list-style: none;
+    float: left;
+    padding: 5px;
+    font-size: 18px;
+  }
+  navbar #menu .sections a {
+    font-size: 15px;
+  }
+  #home {
+    background-image: url("../img/amy-back.jpg");
+    background-position: center;
+  }
+  #about {
+    background-image: url("../img/gallery/band768w.jpg");
+    background-position: center;
+  }
+  navbar #menu {
+    margin-right: 0rem;
+  }
+  header #logoBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #presentacion {
+    width: 100%;
+    margin: 5rem auto;
+  }
+  #barra {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    height: 9rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #barra #frase {
+    font-size: 1.3rem;
+    text-align: right;
+    font-style: italic;
+    margin: 1.5rem 3rem 0rem 0rem;
+    padding-bottom: 1rem;
+  }
+  #about #aboutBox {
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5rem;
+  }
+  #about #aboutBox h2 {
+    font-size: 36px;
+    color: #dfc01b;
+    font-weight: lighter;
+    margin-bottom: 50px;
+  }
+  #about #aboutBox p {
+    font-size: 20px;
+  }
+  #integrantes .integrante {
+    max-width: 70% !important;
+    height: 350px;
+    margin: 10px !important;
+  }
+  #integrantes .integrante img {
+    width: 100%;
+  }
+  #integrantes .integrante .artistsInfo {
+    bottom: 120px !important;
+  }
+  #formContact {
+    display: inline-block;
+  }
+  #formContact #formulario {
+    max-width: 100%;
+    margin: 5rem 0rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  #logoBox {
+    margin-top: 100px;
+  }
+  navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  navbar #menu {
+    width: auto;
+  }
+  navbar #menu .sections {
+    list-style: none;
+    float: left;
+    font-size: 18px;
+  }
+  navbar #menu .sections a {
+    font-size: 15px;
+  }
+  #home {
+    background-image: url("../img/amy-back.jpg");
+    background-position: center;
+  }
+  #about {
+    background-image: url("../img/gallery/band768w.jpg");
+    background-position: center;
+  }
+  navbar #menu {
+    margin-right: 0rem;
+  }
+  header #logoBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #presentacion {
+    width: 100%;
+    margin: 5rem auto;
+  }
+  #barra {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    height: 9rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #barra #frase {
+    font-size: 1.3rem;
+    text-align: right;
+    font-style: italic;
+    margin: 1.5rem 3rem 0rem 0rem;
+    padding-bottom: 1rem;
+  }
+  #about #aboutBox {
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5rem;
+  }
+  #about #aboutBox h2 {
+    font-size: 36px;
+    color: #dfc01b;
+    font-weight: lighter;
+    margin-bottom: 50px;
+  }
+  #about #aboutBox p {
+    font-size: 20px;
+  }
+  #integrantes .integrante {
+    max-width: 70% !important;
+    height: 350px;
+    margin: 10px !important;
+  }
+  #integrantes .integrante img {
+    width: 100%;
+  }
+  #integrantes .integrante .artistsInfo {
+    bottom: 120px !important;
+  }
+  #formContact {
+    display: inline-block;
+  }
+  #formContact #formulario {
+    max-width: 100%;
+    margin: 5rem 0rem;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: 'Crete Round', serif;
+  color: white;
+  background: black;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+span {
+  color: #dfc01b;
+}
+
+.boton {
+  background-color: #dfc01b;
+  padding: 10px;
+  width: 200px;
+  font-size: 18px;
+  color: white;
+  font-family: 'Crete Round', serif;
+  border: 1px solid #dfc01b;
+  border-radius: 7px;
+  outline: none;
+  margin-top: 7px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.boton:hover {
+  background-color: white;
+  color: #dfc01b;
+  border: 1px solid white;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.separador {
+  margin: 2rem 0rem;
+  text-align: center;
+}
+
+.separador .lineaSeparador {
+  margin: 10px auto;
+}
+
+.separador h3 {
+  color: white;
+  font-weight: lighter;
+}
+
+.lineaSeparador {
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-top-color: #dfc01b;
+  width: 50px;
+  max-width: 50px;
+  margin: 10px 0;
+  padding: 15px;
+}
+
+#scrollUp {
+  display: none;
+}
+
+#scrollUp a {
+  width: 50px;
+  height: 50px;
+  background-color: #dfc01b;
+  border-radius: 90px;
+  position: fixed;
+  right: 40px;
+  bottom: 35px;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 25px;
+  height: 25px;
+}
+/*# sourceMappingURL=main.css.map */

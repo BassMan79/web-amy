@@ -1,0 +1,121 @@
+#integrantesBox{
+    margin:50px 0px 0px 0px;
+    padding:0px;
+    background-image: url('../img/mic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    #bandHead{
+        text-align: center;
+        width: 5rem;
+        margin-top: 100px;
+        .lineaSeparador{
+            margin:0px auto;
+        }
+        p{
+            font-size:20px;
+        }
+    }
+    #integrantes{
+        margin:0px auto;
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .integrante{
+            color: white;
+            padding:0px;
+            max-width: 20%;
+            width: 255px;
+            min-width: 255px;
+            margin: 25px;
+            img{
+                width: 100%;
+            }
+            .artistsInfo{
+                position: relative;
+                bottom: 100px;
+                left: 20px;
+                width: 80%;
+                margin:0px;
+            }
+            h3{
+                font-size: 30px;
+                font-weight: lighter;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}
+@supports(object-fit: cover){
+    .integrante img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+.sti-menu{
+	width:1010px;
+	position:relative;
+    margin:60px auto 0 auto;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    li{
+        float:left;
+        width:400px;
+        height:300px;
+        margin:25px;
+        list-style: none;
+        a{
+            display:block;
+            overflow:hidden;
+            height:100%;
+            width:100%;
+            position:relative;
+            h2{
+                color:white;
+                font-size:42px;
+                font-weight:lighter;
+                position:absolute;
+                width:0px auto;
+                top:200px;
+                left:0px;
+                padding-left:20px;
+            }
+            h3{
+                font-size:18px;
+                font-style:italic;
+                color: white;
+                position:absolute;
+                top:248px;
+                left:0px;
+                padding-left:20px;
+            }
+        }
+    }
+}
+#sofi{
+    background-image:url('../img/band/sofi.jpg');
+    background-size: cover;
+}
+
+#maxi{
+    background-image:url('../img/band/maxi.jpg');
+    background-size: cover;
+}
+
+#facu{
+    background-image:url('../img/band/facu.jpg');
+    background-size: cover;
+}
+
+#lucio{
+    background-image:url('../img/band/lucio.jpg');
+    background-size: cover;
+}
+
