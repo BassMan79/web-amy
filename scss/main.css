@@ -19,6 +19,10 @@ navbar #menu .sections {
   font-size: 18px;
 }
 
+navbar #menu .sections a:hover {
+  color: #dfc01b;
+}
+
 #home {
   background-size: cover;
   background-image: url("../img/amy-back.jpg");
@@ -208,7 +212,7 @@ header #logoBox img {
 }
 
 .sti-menu {
-  width: 1010px;
+  width: 100%;
   position: relative;
   margin: 60px auto 0 auto;
   display: -webkit-box;
@@ -597,10 +601,7 @@ footer p {
   }
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
-  #logoBox {
-    margin-top: 100px;
-  }
+@media (min-width: 280px) and (max-width: 430px) {
   navbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -615,6 +616,7 @@ footer p {
   navbar #menu .sections {
     list-style: none;
     float: left;
+    padding: 5px;
     font-size: 18px;
   }
   navbar #menu .sections a {
@@ -629,7 +631,8 @@ footer p {
     background-position: center;
   }
   navbar #menu {
-    margin-right: 0rem;
+    margin-right: 0px;
+    display: inherit;
   }
   header #logoBox {
     display: -webkit-box;
@@ -642,6 +645,9 @@ footer p {
   #presentacion {
     width: 100%;
     margin: 5rem auto;
+  }
+  #presentacion p {
+    font-size: 15px;
   }
   #barra {
     background-color: rgba(0, 0, 0, 0.6);
@@ -656,7 +662,7 @@ footer p {
             justify-content: flex-end;
   }
   #barra #frase {
-    font-size: 1.3rem;
+    font-size: 15px;
     text-align: right;
     font-style: italic;
     margin: 1.5rem 3rem 0rem 0rem;
@@ -676,7 +682,7 @@ footer p {
     margin-bottom: 50px;
   }
   #about #aboutBox p {
-    font-size: 20px;
+    font-size: 15px;
   }
   #integrantes .integrante {
     max-width: 70% !important;
